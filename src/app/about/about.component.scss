@@ -1,0 +1,28 @@
+@import "../../assets/variables.scss";
+
+.down-triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid $primary;
+}
+
+.about-container {
+    background-color: $accent;
+}
+
+.about {
+    color: $primary;
+    border-bottom: 3px double $primary;
+}
+
+.content-card {
+    background-color: $primary;
+    border-radius: 4px;
+    border: 1px solid $secondary;
+}
+
+.card-container {
+    margin: 0 20px;
+}
