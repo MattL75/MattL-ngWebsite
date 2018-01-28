@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import "./assets/variables.scss";
+
+html {
+    background-color: $background;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: $background;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.mt-icon {
+    font-family: 'Material Icons', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle !important;
+}
