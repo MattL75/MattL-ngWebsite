@@ -1,0 +1,40 @@
+@import "../../assets/variables.scss";
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+}
+.circle-img {
+    width: 250px;
+    height: 250px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.head-container {
+    width: 100%;
+    color: $secondary;
+}
+
+.header-name {
+    margin-bottom: 10px;
+}
+
+.header-sub {
+    margin-top: 10px;
+}
+
+.intro-container {
+    padding-left: 40px;
+    border-left: 1px solid rgba(60, 59, 57, 0.55);
+}
+
+.head-footer {
+    .down-icon {
+        cursor: pointer;
+        color: $accent;
+        font-size: 60px;
+        width: 60px;
+        height: 60px;
+    }
+}
