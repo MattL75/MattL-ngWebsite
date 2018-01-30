@@ -1,3 +1,9 @@
+# My Angular Website
+
+Built with Angular in my spare time, as a personal challenge. It will serve as a sort of interactive resume. Will eventually have e2e tests, but may not contain detailed Karma tests.
+
+# Auto-generated Read-Me from the CLI - To be deleted -------
+
 # MyNgWebsite
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
