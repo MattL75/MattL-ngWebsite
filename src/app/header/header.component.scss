@@ -1,9 +1,11 @@
 @import "../../assets/variables.scss";
+
 :host {
     display: flex;
     flex-direction: column;
     height: 92vh;
 }
+
 .circle-img {
     width: 250px;
     height: 250px;
