@@ -10,6 +10,47 @@
 
 .career-container {
     background-color: $primary;
-    color: $accent;
+    color: $secondary;
     padding-bottom: 70px;
+}
+
+.career {
+    color: $secondary;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    border-bottom: 3px double $secondary;
+}
+
+.career-box {
+    background-color: $primary-accent-darker;
+    align-self: stretch;
+    border-radius: 4px;
+    min-width: 350px;
+    margin: 10px;
+    @media screen and (max-width: 760px) {
+        flex: 1 1 80% !important;
+        max-width: 80% !important;
+    }
+}
+
+.sci-img {
+    width: 80px;
+    height: 80px;
+    margin-right: 5%;
+}
+
+.sol-img {
+    width: 80px;
+    height: 40px;
+}
+
+.career-header {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checker {
+    width: 80px;
+    height: 80px;
+    margin-right: 5%;
 }
