@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-    offset = 60;
+    offset = 45;
 
     constructor() {
     }

@@ -120,7 +120,8 @@
 
 .progress-custom {
     color: $primary;
-    background-color: $accent;
+    background-color: $progress-color;
+    border-radius:2px;
     &:last-child {
         padding-bottom: 0 !important;
     }
