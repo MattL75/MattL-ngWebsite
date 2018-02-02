@@ -27,6 +27,7 @@
     border-radius: 4px;
     min-width: 350px;
     margin: 10px;
+    border: 1px lightgray solid;
     @media screen and (max-width: 760px) {
         flex: 1 1 80% !important;
         max-width: 80% !important;
