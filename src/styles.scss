@@ -24,6 +24,15 @@ html, body {
     vertical-align: middle !important;
 }
 
+.no-border {
+    border-color: transparent !important;
+    text-decoration: none !important;
+    &:hover {
+        border-color: transparent !important;
+        text-decoration: none !important;
+    }
+}
+
 .font-icon {
     font-family: 'FontAwesome', sans-serif;
     font-style: normal;

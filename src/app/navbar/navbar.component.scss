@@ -23,11 +23,13 @@
     margin: 0 10px;
     border-radius: 2px;
     cursor: pointer;
+    color: $secondary !important;
     @media screen and (max-width: 475px) {
         margin: 0 !important;
         font-size: 80%;
     }
     &:hover {
+        border: 0 none transparent !important;
         background-color: $primary-accent;
     }
 }

@@ -27,11 +27,16 @@
     border-radius: 4px;
     min-width: 350px;
     margin: 10px;
-    border: 1px lightgray solid;
+    border: 1.5px lightgray solid;
     @media screen and (max-width: 760px) {
         flex: 1 1 80% !important;
         max-width: 80% !important;
     }
+}
+
+.custom-carousel {
+    width: 50%;
+    height: 50%;
 }
 
 .sci-img {
