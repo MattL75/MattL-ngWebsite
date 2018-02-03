@@ -10,6 +10,8 @@ import { HeaderComponent } from './header/header.component';
 import { CareerComponent } from './career/career.component';
 import {Ng2PageScrollModule} from 'ng2-page-scroll';
 import { ProjectsComponent } from './projects/projects.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { ProjectsComponent } from './projects/projects.component';
         AboutComponent,
         HeaderComponent,
         CareerComponent,
-        ProjectsComponent
+        ProjectsComponent,
+        ContactComponent,
+        FooterComponent
     ],
     imports: [
         BrowserModule,

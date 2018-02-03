@@ -1,0 +1,16 @@
+@import "../../assets/variables.scss";
+
+#footer {
+    background-color: #363636;
+    color: white;
+    padding: 10px 0;
+    .foot-text {
+        text-align: center;
+        font-weight: 200;
+        font-size: 12px;
+    }
+}
+
+a {
+    color: $accent;
+}

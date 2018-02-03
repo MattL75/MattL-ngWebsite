@@ -1,0 +1,59 @@
+@import "../../assets/variables.scss";
+
+:host {
+    background-color: $primary;
+    color: $secondary;
+}
+
+.contact-container {
+    @media screen and (max-width: 750px) {
+        flex-wrap: wrap !important;
+    }
+}
+
+.comments {
+    background-color: $primary-accent-darker;
+}
+
+.contact-section {
+    padding: 40px;
+    color: $secondary;
+    @media screen and (max-width: 750px) {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+h4 {
+    color: $secondary;
+}
+
+strong {
+    border-bottom: 3px double $secondary;
+}
+
+p {
+    padding-top: 15px;
+}
+
+.par2 {
+    padding-top: 4px;
+}
+.about-icon {
+    color: $accent;
+    font-size: 34px;
+    width: 34px;
+    height: 34px;
+}
+
+.icon-link {
+    color: transparent;
+    margin-right: 5px;
+}
+
+.contact-link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+}
