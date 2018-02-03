@@ -3,9 +3,61 @@
 .projects-container {
     width: 100%;
     padding-bottom: 70px;
-    color: $secondary;
+    color: $primary;
+    background-color: $accent;
+}
+
+.down-triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid $primary;
 }
 
 .projects {
-    border-bottom: 3px double $secondary;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    border-bottom: 3px double $primary;
+}
+
+.card {
+    color: $secondary;
+    border: none !important;
+}
+
+.about-icon {
+    color: $accent;
+    font-size: 34px;
+    width: 34px;
+    height: 34px;
+}
+
+.icon-link {
+    color: transparent;
+    margin-right: 10px;
+}
+
+.card-footer-custom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+.inner-footer-span {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.prj-img {
+    width: 288px;
+    height: 162px;
+}
+
+.card {
+    margin: 10px;
+    background-color: $primary;
 }
