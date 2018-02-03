@@ -6,7 +6,7 @@
 :host {
     display: flex;
     flex-direction: column;
-    height: 92vh;
+    height: 100vh;
 }
 
 .circle-img {
@@ -28,6 +28,7 @@
 .head-container {
     width: 100%;
     color: $secondary;
+    margin-top: 80px;
 }
 
 .header-name {
