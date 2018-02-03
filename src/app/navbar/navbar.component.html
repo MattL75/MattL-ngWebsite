@@ -1,12 +1,12 @@
 <div class="navigation sticky-top">
     <div class="actual-nav" fxFlex fxLayout="row" fxLayoutAlign="center center" fxLayoutWrap="wrap">
         <div class="title" fxFlex fxLayout="row" fxLayoutAlign="start center">
-            <span class="nav-heading">Matt&nbsp;<strong>LAJOIE</strong></span>
+            <span pageScroll [pageScrollOffset]="70" href="#head-start" class="nav-heading no-border">Matt&nbsp;<strong>LAJOIE</strong></span>
         </div>
         <div class="nav-items" fxLayout="row" fxLayoutAlign="center center">
             <a pageScroll [pageScrollOffset]="offset" class="no-border" href="#about-start">About</a>
             <a pageScroll [pageScrollOffset]="offset" class="no-border" href="#career-start">Career</a>
-            <a class="no-border">Projects</a>
+            <a pageScroll [pageScrollOffset]="offset" class="no-border" href="#projects-start">Projects</a>
             <a class="no-border">Contact</a>
         </div>
     </div>
