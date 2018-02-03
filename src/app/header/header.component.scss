@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     height: 92vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .circle-img {
@@ -27,7 +28,7 @@
 
 .head-container {
     width: 100%;
-    color: $secondary;
+    color: #3C3B39;
 }
 
 .header-name {
@@ -61,7 +62,7 @@
 .head-footer {
     .down-icon {
         cursor: pointer;
-        color: $accent;
+        color: #E26D64;
         font-size: 60px;
         width: 60px;
         height: 60px;

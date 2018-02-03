@@ -5,16 +5,16 @@
 
 :host {
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navigation {
-    background-color: $primary;
-    color: $secondary;
+    background-color: #F2F1EF;
+    color: #3C3B39;
     width: 100%;
     padding: 15px 10px;
     box-shadow: 0 0 5px 0 rgba(0,0,0,.26);
     font-size: 125%;
-    //border-bottom: 1px solid $accent;
     @media screen and (max-width: 700px) {
         padding: 10px !important;
     }
@@ -25,14 +25,14 @@
     margin: 0 10px;
     border-radius: 2px;
     cursor: pointer;
-    color: $secondary !important;
+    color: #3C3B39 !important;
     @media screen and (max-width: 475px) {
         margin: 0 !important;
         font-size: 80%;
     }
     &:hover {
         border: 0 none transparent !important;
-        background-color: $primary-accent;
+        background-color: #E9E8E6;
     }
 }
 
@@ -46,7 +46,7 @@
         flex-basis: 100%;
     }
     .nav-heading {
-        color: $secondary;
+        color: #3C3B39;
         padding: 0 10px;
         font-size: 125%;
     }
@@ -59,8 +59,8 @@
 }
 
 strong {
-    font-family: 'Dancing Script', cursive;
-    color: $accent;
+    font-family: 'Dancing Script', cursive !important;
+    color: #E26D64;
 }
 
 .nav-heading {

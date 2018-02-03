@@ -4,13 +4,13 @@
 @import "assets/variables.scss";
 
 html {
-    background-color: $background;
+    background-color: #f2f1ef;
 }
 
 html, body {
     height: 100%;
     width: 100%;
-    background-color: $background;
+    background-color: #f2f1ef;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
@@ -49,9 +49,9 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $primary;
+    background-color: #f2f1ef;
     i {
-        color: $accent;
+        color: #E26D64;
     }
     div {
         padding-top: 20px;

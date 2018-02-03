@@ -6,8 +6,9 @@
 .projects-container {
     width: 100%;
     padding-bottom: 70px;
-    color: $primary;
-    background-color: $accent;
+    color: #F2F1EF;
+    background-color: #E26D64;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .down-triangle {
@@ -15,22 +16,22 @@
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid $primary;
+    border-top: 20px solid #F2F1EF;
 }
 
 .projects {
     margin-top: 40px;
     margin-bottom: 35px;
-    border-bottom: 3px double $primary;
+    border-bottom: 3px double #F2F1EF;
 }
 
 .card {
-    color: $secondary;
+    color: #3C3B39;
     border: none !important;
 }
 
 .about-icon {
-    color: $accent;
+    color: #E26D64;
     font-size: 34px;
     width: 34px;
     height: 34px;

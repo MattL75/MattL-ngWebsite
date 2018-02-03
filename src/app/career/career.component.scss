@@ -8,24 +8,25 @@
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid $accent;
+    border-top: 20px solid #E26D64;
 }
 
 .career-container {
-    background-color: $primary;
-    color: $secondary;
+    background-color: #F2F1EF;
+    color: #3C3B39;
     padding-bottom: 70px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .career {
-    color: $secondary;
+    color: #3C3B39;
     margin-top: 40px;
     margin-bottom: 35px;
-    border-bottom: 3px double $secondary;
+    border-bottom: 3px double #3C3B39;
 }
 
 .career-box {
-    background-color: $primary-accent-darker;
+    background-color: #E5E4E2;
     align-self: stretch;
     border-radius: 4px;
     min-width: 350px;

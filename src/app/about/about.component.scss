@@ -8,19 +8,20 @@
     height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-top: 20px solid $primary;
+    border-top: 20px solid #F2F1EF;
 }
 
 .about-container {
-    background-color: $accent;
+    background-color: #E26D64;
     padding-bottom: 75px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .about {
     color: $primary;
     margin-top: 40px;
     margin-bottom: 35px;
-    border-bottom: 3px double $primary;
+    border-bottom: 3px double #F2F1EF;
 }
 
 .card-container {
@@ -36,7 +37,7 @@
 }
 
 .card {
-    background-color: $primary;
+    background-color: #F2F1EF;
     align-self: stretch;
     min-width: 350px;
     margin: 10px;
@@ -52,15 +53,15 @@
 }
 
 .btn-primary {
-    background-color: $accent;
-    border-color: $accent;
+    background-color: #E26D64;
+    border-color: #E26D64;
     &:hover {
-        background-color: $accent-accent;
+        background-color: #D63E3E;
     }
 }
 
 .about-icon {
-    color: $accent;
+    color: #E26D64;
     font-size: 34px;
     width: 34px;
     height: 34px;
@@ -75,7 +76,7 @@
 }
 
 .progress {
-    background-color: $primary-accent-darker;
+    background-color: #E5E4E2;
     margin-bottom: 15px;
     &:last-child {
         margin-bottom: 0 !important;
@@ -110,20 +111,20 @@
 .skills-foot {
     width: 100%;
     font-size: 75%;
-    color: $secondary-accent;
+    color: #858482;
     padding-bottom: 0 !important;
     padding-right: 25px !important;
     padding-left: 25px !important;
     background-color: transparent;
     border: none;
     strong {
-        border-bottom: 1px dotted $secondary-accent;;
+        border-bottom: 1px dotted #858482;;
     }
 }
 
 .progress-custom {
-    color: $primary;
-    background-color: $accent;
+    color: #F2F1EF;
+    background-color: #E26D64;
     border-radius:2px;
     &:last-child {
         padding-bottom: 0 !important;

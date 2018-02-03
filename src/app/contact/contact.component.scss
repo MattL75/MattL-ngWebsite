@@ -4,11 +4,12 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 :host {
-    background-color: $primary;
-    color: $secondary;
+    background-color: #F2F1EF;
+    color: #3C3B39;
 }
 
 .contact-container {
+    font-family: 'Montserrat', sans-serif;
     @media screen and (max-width: 750px) {
         flex-wrap: wrap !important;
     }
@@ -20,7 +21,7 @@
 
 .contact-section {
     padding: 40px;
-    color: $secondary;
+    color: #3C3B39;
     @media screen and (max-width: 750px) {
         flex: 1 1 100% !important;
         max-width: 100% !important;
@@ -28,11 +29,11 @@
 }
 
 h4 {
-    color: $secondary;
+    color: #3C3B39;
 }
 
 strong {
-    border-bottom: 3px double $secondary;
+    border-bottom: 3px double #3C3B39;
 }
 
 p {
@@ -43,7 +44,7 @@ p {
     padding-top: 4px;
 }
 .about-icon {
-    color: $accent;
+    color: #E26D64;
     font-size: 34px;
     width: 34px;
     height: 34px;
