@@ -6,9 +6,9 @@
 :host {
     display: flex;
     flex-direction: column;
-    height: 92vh;
     font-family: 'Montserrat', sans-serif;
     background-color: #f2f1ef;
+    height: 100vh;
 }
 
 .circle-img {
@@ -29,6 +29,7 @@
 
 .head-container {
     width: 100%;
+    margin-top: 80px;
     color: #3C3B39;
 }
 
