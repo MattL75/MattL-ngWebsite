@@ -1,0 +1,20 @@
+$primary: #f2f1ef;
+$secondary: #3c3b39;
+$primary-accent: #e9e8e6;
+$primary-accent-darker: #e5e4e2;
+$secondary-accent: #858482;
+$background: #f2f1ef;
+$accent: #e26d64;
+$accent-accent: #d63e3e;
+$progress-color: #5a5959;
+@mixin overlay() {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+@mixin full-hw() {
+    height: 100%;
+    width: 100%;
+}
