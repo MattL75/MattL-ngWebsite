@@ -1,6 +1,7 @@
 # My Angular Website
 
-Built with Angular in my spare time, as a personal challenge. It will serve as a sort of interactive resume. Will potentially include e2e/karma tests.
+Built with Angular 5 in my spare time, as a personal challenge. It serves as a sort of interactive resume.
 
-# Currently a work in progress
+# Todo
+- Host this @ mattl75.github.io instead of mattl75.github.io/me.
 
